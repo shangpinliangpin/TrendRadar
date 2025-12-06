@@ -1,0 +1,122 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-12-06 19:22:14</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7580194830757314614/" target="_blank" class="news-link">任正非：算力过剩不可避免</a> [17] <font color='grey'>- 19时22分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7580356626910642195/" target="_blank" class="news-link">你会花七八千买华为手机吗</a> [18] <font color='grey'>- 19时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E5%90%88%E6%8B%8D%E3%80%8A%E6%88%91%E7%9A%84%E5%93%AA%E5%90%92%E4%B8%8E%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9A%E3%80%8B%E9%A6%96%E6%92%AD" target="_blank" class="news-link">中美合拍《我的哪吒与变形金刚》首播</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时22分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1945028309818803752" target="_blank" class="news-link">《哪吒之魔童闹海》的票房冠军位置，可以保持多久？</a> [9] <font color='grey'>- 19时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760832" target="_blank" class="news-link">预计下周二！OpenAI“紧急提前”发布GPT 5.2，应对Gemini 3的火爆</a> [9] <font color='grey'>- 19时22分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1979223676378447995" target="_blank" class="news-link">OpenAI 暂停广告业务，全力「死磕」谷歌 Gemini，这一战略调整将如何影响 AI 行业格局？</a> [19] <font color='grey'>- 19时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760810" target="_blank" class="news-link">大空头Burry警告美股将重演“2000年”熊市：资本开支逼近顶峰，两年足够AI泡沫破灭！</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时22分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2221699" target="_blank" class="news-link">AI手机概念龙头单周累计最大涨幅近四成 梳理产业链成本占比、市占率居前A股名单</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760830" target="_blank" class="news-link">SpaceX估值超越OpenAI，或翻倍至8000亿美元，计划明年下半年上市</a> [6] <font color='grey'>- 19时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32119954" target="_blank" class="news-link">百度人名大全疑云未熄：一全国性科技平台两份职称公示名单照搬人名大全</a> [11] <font color='grey'>- 19时22分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E5%90%88%E6%8B%8D%E3%80%8A%E6%88%91%E7%9A%84%E5%93%AA%E5%90%92%E4%B8%8E%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9A%E3%80%8B%E9%A6%96%E6%92%AD" target="_blank" class="news-link">中美合拍《我的哪吒与变形金刚》首播</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3760832" target="_blank" class="news-link">预计下周二！OpenAI“紧急提前”发布GPT 5.2，应对Gemini 3的火爆</a> [9]</li></ul></div>
+        </body>
+        </html>
+        

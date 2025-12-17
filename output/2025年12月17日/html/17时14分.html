@@ -1,0 +1,138 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-12-17 17:14:17</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2231654" target="_blank" class="news-link">特斯拉创历史新高！大摩大胆预测：2035年Robotaxi规模将达百万辆</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时14分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8p9nCXu9FDv" target="_blank" class="news-link">白宫幕僚长尖锐点评特朗普、马斯克等人，却获白宫力挺</a> [7] <font color='grey'>- 17时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761525" target="_blank" class="news-link">特朗普有“酒鬼性格”，万斯“阴谋论者”，马斯克“嗑药的怪人”...“白宫大管家”的炸裂采访爆了</a> [9] <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2231960" target="_blank" class="news-link">“果链”大事件！苹果首次考虑在印度封装iPhone芯片 已开始展开谈判</a> [6] <font color='grey'>- 17时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761511" target="_blank" class="news-link">折叠iPhone明年见！苹果未来两年发布路线曝光，主打手机五款变七款</a> [8] <font color='grey'>- 17时14分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%23iPhone18Pro%E6%88%96%E6%91%92%E5%BC%83%E8%8D%AF%E4%B8%B8%E7%8A%B6%E6%8C%96%E5%AD%94%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">iPhone18Pro或摒弃药丸状挖孔</a> [28] <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7583986943530680374/" target="_blank" class="news-link">华为Mate80为啥价格突崩</a> [13] <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://s.weibo.com/weibo?q=%E9%99%88%E5%A6%8D%E5%B8%8C%E4%BE%A7%E8%84%B8%20%E9%A5%BA%E5%AD%90%E5%A4%A7%E7%8E%8B&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">陈妍希侧脸 饺子大王</a> [29] <font color='grey'>- 17时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">流浪地球 郭帆 三体 刘慈欣</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%83%AD%E5%B8%86%E5%8D%A1%E6%A2%85%E9%9A%86%E6%8A%80%E6%9C%AF%E4%BA%A4%E6%B5%81%E4%B8%8A%E4%BA%86" target="_blank" class="news-link">郭帆卡梅隆技术交流上了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1984399340748436486" target="_blank" class="news-link">如何评价《崩坏：星穹铁道》3.8 版本 终末任务「记忆是梦的开场白」？</a> [14] <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2231832" target="_blank" class="news-link">电力“隐形心脏”告急！揭秘美国AI热潮最大瓶颈之一：变压器</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761475" target="_blank" class="news-link">非农数据喜忧参半，标普三连跌，科技股反弹撑纳指，人民币创14个月新高，原油重挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>weibo (1 条)</h4><ul><li><a href="https://s.weibo.com/weibo?q=%E9%99%88%E5%A6%8D%E5%B8%8C%E4%BE%A7%E8%84%B8%20%E9%A5%BA%E5%AD%90%E5%A4%A7%E7%8E%8B&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">陈妍希侧脸 饺子大王</a> [29]</li></ul></div>
+        </body>
+        </html>
+        

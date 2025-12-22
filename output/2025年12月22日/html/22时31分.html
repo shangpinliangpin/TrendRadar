@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-12-22 22:31:25</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761821" target="_blank" class="news-link">科技股反弹引领市场！美股期货走高，“Mag7”普涨，英伟达盘前涨2%，甲骨文涨超2%，油价反弹超2%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时31分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8pIHsNqm7yO" target="_blank" class="news-link">美国人发愁：特朗普明摆着抢英伟达钱，但一个愿打一个愿挨</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时31分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2236882" target="_blank" class="news-link">贵金属携手迭创新高 英伟达率科技股延续反弹势头 | 今夜看点</a> [12] <font color='grey'>- 22时31分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7586532944194502707/" target="_blank" class="news-link">AI定格|2025·强国脉动</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761823" target="_blank" class="news-link">AI大模型独角兽招股书深度拆解：MiniMax to C，智谱 to B</a> [6] <font color='grey'>- 22时31分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32225231" target="_blank" class="news-link">澎湃AI晚新闻丨2025年12月21日</a> [20] <font color='grey'>- 22时31分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">机器人</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8E%B7%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A0%BC%E6%96%97%E5%86%A0%E5%86%9B" target="_blank" class="news-link">中国机器人获机器人格斗冠军</a> [7] <font color='grey'>- 22时31分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2236551" target="_blank" class="news-link">【焦点复盘】创业板指高开高走涨逾2%，半导体产业链“王者归来”，机器人概念午后异动</a> [7] <font color='grey'>- 22时31分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761811" target="_blank" class="news-link">“港股GPU第一股”壁仞科技确定IPO发售价格区间，预计明年1月2日上市交易</a> [9] <font color='grey'>- 22时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761822" target="_blank" class="news-link">AH股高开高走，创业板涨超2%，贵金属、CPO、智驾走强，拓荆科技市值破千亿，沪银续创新高</a> [10] <font color='grey'>- 22时31分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1985806313826043181" target="_blank" class="news-link">媒体报道华为 Pura80Pro+ 新机充电电池爆炸，售后凭照鉴定「人为致损」拒保，实际情况如何？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时31分</font></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        

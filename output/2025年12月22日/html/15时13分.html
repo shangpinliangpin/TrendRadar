@@ -1,0 +1,146 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-12-22 15:13:53</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8pI4dhdsa8y" target="_blank" class="news-link">线上考试疑用AI，韩国高校再曝集体作弊丑闻</a> [8] <font color='grey'>- 15时13分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2236150" target="_blank" class="news-link">2025美股十大震撼事件：从关税风暴到AI狂潮 70万亿市场的盛宴与危机</a> [13] <font color='grey'>- 15时13分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E8%AF%AD%E5%85%94%E7%9A%84%E5%B9%B4%E6%8A%A5DNA%E9%87%8C%E6%9C%89AI" target="_blank" class="news-link">英语兔的年报DNA里有AI</a> [17] <font color='grey'>- 15时13分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761794" target="_blank" class="news-link">一纸判决，千亿回归：马斯克成为史上首位7000亿美元富豪</a> [9] <font color='grey'>- 15时13分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E2%80%9C%E4%B8%8A%E5%B2%97%E2%80%9D%E5%8D%96%E7%88%86%E7%B1%B3%E8%8A%B1" target="_blank" class="news-link">特斯拉人形机器人“上岗”卖爆米花</a> [27] <font color='grey'>- 15时13分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761798" target="_blank" class="news-link">a16z年度重磅报告：OpenAI艰难守擂，谷歌火力全开，用户只选一个</a> [7] <font color='grey'>- 15时13分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761792" target="_blank" class="news-link">“AI取代搜索”是伪命题？市场发现：谷歌才是对的！</a> [8] <font color='grey'>- 15时13分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">机器人</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8E%B7%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A0%BC%E6%96%97%E5%86%A0%E5%86%9B" target="_blank" class="news-link">中国机器人获机器人格斗冠军</a> [6] <font color='grey'>- 15时13分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E5%8A%9B%E5%AE%8F%E7%81%AB%E5%8A%9B%E5%85%A8%E5%BC%80%E4%BC%B4%E8%88%9E%E6%98%AF%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">王力宏火力全开伴舞是机器人</a> [29] <font color='grey'>- 15时13分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E4%BC%9A%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">华为发布会</a> [21] <font color='grey'>- 15时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">流浪地球 郭帆 三体 刘慈欣</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E7%94%A8AI%E6%94%B9%E5%86%99%E4%B8%89%E4%BD%93%E5%90%8D%E5%9C%BA%E9%9D%A2" target="_blank" class="news-link">UP主用AI改写三体名场面</a> [13] <font color='grey'>- 15时13分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">汽车 自动驾驶 l3</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2235799" target="_blank" class="news-link">【早报】A股市场千亿级并购来了；首块L3级自动驾驶牌照诞生</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时13分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2235822" target="_blank" class="news-link">我国科学家实现光芯片研究新突破 光芯片短缺或将持续至2026年底</a> [11] <font color='grey'>- 15时13分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2235821" target="_blank" class="news-link">张玉卓：接续发力新能源 超前谋划量子科技</a> [6] <font color='grey'>- 15时13分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2236150" target="_blank" class="news-link">2025美股十大震撼事件：从关税风暴到AI狂潮 70万亿市场的盛宴与危机</a> [13]</li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E4%BC%9A%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">华为发布会</a> [21]</li></ul></div>
+        </body>
+        </html>
+        

@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-12-24 14:46:58</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1986870862725529845" target="_blank" class="news-link">京东称巴黎仓库遭盗抢称损失与实际情况有较大出入，此前被曝损失 3 亿人民币，会造成多大影响？损失由谁承担？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时46分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7586801494486728745/" target="_blank" class="news-link">巴黎仓库被盗损失3亿？京东回应</a> [6] <font color='grey'>- 14时46分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B7%B4%E9%BB%8E%E4%BB%93%E5%BA%93%E8%A2%AB%E7%9B%97%E6%8D%9F%E5%A4%B13%E4%BA%BF%EF%BC%9F%E4%BA%AC%E4%B8%9C%E6%B7%B1%E5%A4%9C%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">巴黎仓库被盗损失3亿？京东深夜回应</a> [13] <font color='grey'>- 14时46分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2238248" target="_blank" class="news-link">美股收盘：日线四连涨标普收新高 英伟达升3%领涨七巨头</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时46分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2238263" target="_blank" class="news-link">英媒：英伟达放风春节前向中国客户交付H200芯片</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时46分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[weibo] <a href="https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%AE%B6%E9%95%BF%E5%90%90%E6%A7%BD%E5%AD%A6%E6%A0%A1%E8%A6%81%E6%B1%82%E5%86%AC%E8%87%B3%E5%8C%85%E9%A5%BA%E5%AD%90&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">上海家长吐槽学校要求冬至包饺子</a> [17] <font color='grey'>- 14时46分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28348312&amp;amp;topic_name=%E7%B2%BE%E6%97%A5%E5%AE%9E%E9%94%A4%3F%E5%8E%9F%E7%A5%9E%E5%A5%97%E7%94%A8%E6%97%A5%E6%9C%AC%E5%86%9B%E8%A1%94" target="_blank" class="news-link">精日实锤?原神套用日本军衔</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时46分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1986826913436680279" target="_blank" class="news-link">如何看待微软 Galen Hunt 宣称要用 AI+ 算法对所有 C/C++ 程序重新为 Rust 程序？</a> [18] <font color='grey'>- 14时46分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">汽车 自动驾驶 l3</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2238276" target="_blank" class="news-link">北京发放首批L3级高速公路自动驾驶号牌 智驾产业拐点加速到来</a> [13] <font color='grey'>- 14时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761906" target="_blank" class="news-link">科技股助标普收创新高，金银铜再新高，人民币强势逼近7.0，GDP强劲打击美债</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时46分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2238276" target="_blank" class="news-link">北京发放首批L3级高速公路自动驾驶号牌 智驾产业拐点加速到来</a> [13]</li></ul></div>
+        </body>
+        </html>
+        

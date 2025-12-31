@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-12-31 23:57:29</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7589991496553168939/" target="_blank" class="news-link">哪吒电影官方发文：不负期许</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时57分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%B5%E5%BD%B1%E3%80%8A%E5%93%AA%E5%90%92%E3%80%8B%E5%8F%91%E6%96%87%EF%BC%9A%E4%B8%8D%E8%B4%9F%E6%9C%9F%E8%AE%B8" target="_blank" class="news-link">电影《哪吒》发文：不负期许</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时57分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%96%B0%E5%B9%B4%E8%B4%BA%E8%AF%8D%E7%82%B9%E8%B5%9E%E6%82%9F%E7%A9%BA%E5%93%AA%E5%90%92" target="_blank" class="news-link">新年贺词点赞悟空哪吒</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时57分</font><br>[douyin] <a href="https://www.douyin.com/hot/2353399" target="_blank" class="news-link">新年贺词点赞电影哪吒</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时57分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%96%B0%E5%B9%B4%E8%B4%BA%E8%AF%8D%E7%82%B9%E8%B5%9E%E5%93%AA%E5%90%92" target="_blank" class="news-link">新年贺词点赞哪吒</a> [12] <font color='grey'>- 23时57分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7589609395064471602/" target="_blank" class="news-link">新年贺词点赞电影哪吒</a> [17] <font color='grey'>- 23时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%B7%A8%E6%99%9A%E5%94%B1%E5%93%8D%E5%8E%9F%E7%A5%9E%E4%BA%94%E5%91%A8%E5%B9%B4%E4%B8%BB%E9%A2%98%E6%9B%B2%E5%9B%9E%E5%AE%B6%E7%9A%84%E8%B7%AF" target="_blank" class="news-link">跨晚唱响原神五周年主题曲回家的路</a> [18] <font color='grey'>- 23时57分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BC%A0%E9%9F%B6%E6%B6%B5%E8%B7%A8%E5%B9%B4%E7%8C%AE%E5%94%B1%E5%8E%9F%E7%A5%9E%E5%B0%91%E5%A5%B3%E6%AD%8C%E6%9B%B2" target="_blank" class="news-link">张韶涵跨年献唱原神少女歌曲</a> [21] <font color='grey'>- 23时57分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E%E4%BC%B4%E6%9C%88%E5%90%8C%E7%9C%A0%E4%B8%AD%E6%96%87%E7%89%88%E9%A6%96%E5%94%B1" target="_blank" class="news-link">原神伴月同眠中文版首唱</a> [25] <font color='grey'>- 23时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32289346" target="_blank" class="news-link">国家广电总局专项治理“AI魔改”视频：重点清理基于四大名著等“魔改”内容</a> [8] <font color='grey'>- 23时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2245628" target="_blank" class="news-link">【焦点复盘】银行等权重板块护盘，沪指追平日线连阳历史纪录，AI软硬件分化再现</a> [9] <font color='grey'>- 23时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2245529" target="_blank" class="news-link">【每日收评】沪指11连阳收官！商业航天卷土重来，AI应用端强势延续</a> [12] <font color='grey'>- 23时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762337" target="_blank" class="news-link">中国存储芯片第一股来了！长鑫科技科创板IPO获受理，预先审阅机制首单，拟募资295亿元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时57分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E8%8A%AF%E7%89%87%E8%87%AA%E4%B8%BB%E7%A0%94%E5%8F%91%E6%96%B0%E7%AA%81%E7%A0%B4%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">我国芯片自主研发新突破</a> [29] <font color='grey'>- 23时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">稚晖君 智元</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E6%B2%A1%E9%80%A0%E5%87%BA%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA+%E7%A8%9A%E6%99%96%E5%90%9B%E6%90%9E%E5%AE%9A%E4%BA%86" target="_blank" class="news-link">马斯克没造出的机器人 稚晖君搞定了</a> [19] <font color='grey'>- 23时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://s.weibo.com/weibo?q=%23%E8%8A%B1%E8%8A%B1%E9%80%81%E7%9A%84%E4%BA%AC%E4%B8%9C%E8%B7%A8%E6%99%9A%E5%A4%A7%E5%A5%96%E6%98%AF%E5%AE%83%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">花花送的京东跨晚大奖是它</a> [21] <font color='grey'>- 23时57分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2352556" target="_blank" class="news-link">我的2026宇宙启示</a> [24] <font color='grey'>- 23时57分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>weibo (1 条)</h4><ul><li><a href="https://s.weibo.com/weibo?q=%23%E8%8A%B1%E8%8A%B1%E9%80%81%E7%9A%84%E4%BA%AC%E4%B8%9C%E8%B7%A8%E6%99%9A%E5%A4%A7%E5%A5%96%E6%98%AF%E5%AE%83%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">花花送的京东跨晚大奖是它</a> [21]</li></ul></div>
+        </body>
+        </html>
+        

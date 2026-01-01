@@ -1,0 +1,154 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-01-01 12:04:45</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7589991496553168939/" target="_blank" class="news-link">哪吒电影官方发文：不负期许</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时04分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%96%B0%E5%B9%B4%E8%B4%BA%E8%AF%8D%E7%82%B9%E8%B5%9E%E6%82%9F%E7%A9%BA%E5%93%AA%E5%90%92" target="_blank" class="news-link">新年贺词点赞悟空哪吒</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时04分</font><br>[douyin] <a href="https://www.douyin.com/hot/2353399" target="_blank" class="news-link">新年贺词点赞电影哪吒</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时04分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7589609395064471602/" target="_blank" class="news-link">新年贺词点赞电影哪吒</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时04分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%B5%E5%BD%B1%E3%80%8A%E5%93%AA%E5%90%92%E3%80%8B%E5%8F%91%E6%96%87%EF%BC%9A%E4%B8%8D%E8%B4%9F%E6%9C%9F%E8%AE%B8" target="_blank" class="news-link">电影《哪吒》发文：不负期许</a> [8] <font color='grey'>- 12时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762372" target="_blank" class="news-link">2026年全球经济十大悬念：AI泡沫会破吗？黄金会否冲破5000？泽连斯基会妥协吗?</a> [8] <font color='grey'>- 12时04分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2245960" target="_blank" class="news-link">“AI教父”警告：AI显现自我保护迹象，人类应做好“拔掉插头”的准备</a> [9] <font color='grey'>- 12时04分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BB%99AI%E5%86%85%E5%AE%B9%E2%80%9C%E5%8D%B8%E5%A6%86%E2%80%9D+%E4%B8%80%E7%9C%BC%E8%BE%A8%E7%9C%9F%E4%BC%AA" target="_blank" class="news-link">给AI内容“卸妆” 一眼辨真伪</a> [11] <font color='grey'>- 12时04分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7589768798652514310/" target="_blank" class="news-link">给AI内容“卸妆” 一眼辨真伪</a> [12] <font color='grey'>- 12时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BC%A0%E9%9F%B6%E6%B6%B5%E8%B7%A8%E5%B9%B4%E7%8C%AE%E5%94%B1%E5%8E%9F%E7%A5%9E%E5%B0%91%E5%A5%B3%E6%AD%8C%E6%9B%B2" target="_blank" class="news-link">张韶涵跨年献唱原神少女歌曲</a> [21] <font color='grey'>- 12时04分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E%E4%BC%B4%E6%9C%88%E5%90%8C%E7%9C%A0%E4%B8%AD%E6%96%87%E7%89%88%E9%A6%96%E5%94%B1" target="_blank" class="news-link">原神伴月同眠中文版首唱</a> [29] <font color='grey'>- 12时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2352556" target="_blank" class="news-link">我的2026宇宙启示</a> [10] <font color='grey'>- 12时04分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28348614&amp;amp;topic_name=%E6%95%A3%E4%BA%86%E5%90%A7%21FGO%E6%9C%88%E7%90%83%E6%98%A5%E6%99%9A%E6%B2%A1%E6%B4%BB%E4%BA%86" target="_blank" class="news-link">散了吧!FGO月球春晚没活了</a> [11] <font color='grey'>- 12时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7589927689303326763/" target="_blank" class="news-link">宇树人形机器人回应AI是否存在泡沫</a> [24] <font color='grey'>- 12时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">稚晖君 智元</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E6%B2%A1%E9%80%A0%E5%87%BA%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA+%E7%A8%9A%E6%99%96%E5%90%9B%E6%90%9E%E5%AE%9A%E4%BA%86" target="_blank" class="news-link">马斯克没造出的机器人 稚晖君搞定了</a> [30] <font color='grey'>- 12时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2353030" target="_blank" class="news-link">英伟达再曝30亿收购计划</a> [29] <font color='grey'>- 12时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762366" target="_blank" class="news-link">150万美元！OpenAI人均员工薪酬炸裂，刷新科技史纪录</a> [7] <font color='grey'>- 12时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B7%A8%E5%B9%B4%E6%99%9A%E4%BC%9A%E6%9C%80%E5%BF%99%E7%9A%84%E2%80%9C%E4%BA%BA%E2%80%9D%E6%98%AF%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">跨年晚会最忙的“人”是机器人</a> [25] <font color='grey'>- 12时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2240328" target="_blank" class="news-link">三张图总结2025年环球资产表现：科技牛、金属狂、美元颓</a> [8] <font color='grey'>- 12时04分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 4 条)</h3>
+            <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7589768798652514310/" target="_blank" class="news-link">给AI内容“卸妆” 一眼辨真伪</a> [12]</li><li><a href="https://www.toutiao.com/trending/7589927689303326763/" target="_blank" class="news-link">宇树人形机器人回应AI是否存在泡沫</a> [24]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E8%B7%A8%E5%B9%B4%E6%99%9A%E4%BC%9A%E6%9C%80%E5%BF%99%E7%9A%84%E2%80%9C%E4%BA%BA%E2%80%9D%E6%98%AF%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">跨年晚会最忙的“人”是机器人</a> [25]</li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2353030" target="_blank" class="news-link">英伟达再曝30亿收购计划</a> [29]</li></ul></div>
+        </body>
+        </html>
+        

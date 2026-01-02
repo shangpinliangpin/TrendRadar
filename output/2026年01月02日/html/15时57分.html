@@ -1,0 +1,138 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-01-02 15:57:33</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762429" target="_blank" class="news-link">梁文锋署名，DeepSeek元旦新论文要开启架构新篇章</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时57分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E8%A7%A3%E8%AF%BBDeepSeek%E6%A2%81%E6%96%87%E9%94%8B%E6%96%B0%E8%AE%BA%E6%96%87" target="_blank" class="news-link">UP主解读DeepSeek梁文锋新论文</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时57分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1990084005744362243" target="_blank" class="news-link">如何理解 DeepSeek 最新提出的 mHC 架构？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时57分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E6%A2%81%E6%96%87%E9%94%8B%E5%8F%88%E5%8F%91%E8%AE%BA%E6%96%87%E4%BA%86" target="_blank" class="news-link">DeepSeek梁文锋又发论文了</a> [15] <font color='grey'>- 15时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762433" target="_blank" class="news-link">SemiAnalysis深度报告：美国电网跟不上，AI数据中心“自建电厂”跟时间赛跑</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2245258" target="_blank" class="news-link">展望半导体2026三大关键词：存储、AI、国产化</a> [10] <font color='grey'>- 15时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2246252" target="_blank" class="news-link">【早报】加大对科技投资！全球主权财富基金资产突破15万亿美元；AI加速全球可控核聚变商业化进程</a> [11] <font color='grey'>- 15时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762444" target="_blank" class="news-link">新年首个交易日，恒科涨超3%，壁仞科技一度涨近120%，百度大涨7%，人民币继续走强</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2246164" target="_blank" class="news-link">推进科创板上市！ 国产GPU四小龙燧原科技完成IPO辅导</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2246281" target="_blank" class="news-link">大涨超100%！“港股国产GPU第一股”壁仞科技上市 一手赚近4000港元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1990395619592930007" target="_blank" class="news-link">如何评价《崩坏：星穹铁道》阿哈时刻：「火花」？</a> [7] <font color='grey'>- 15时57分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84%E5%BC%A0%E9%9F%B6%E6%B6%B5%E7%8E%8B%E9%93%AE%E4%BA%AE%E5%8E%9F%E7%A5%9E%E8%88%9E%E5%8F%B0" target="_blank" class="news-link">锐评张韶涵王铮亮原神舞台</a> [23] <font color='grey'>- 15时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黑神话 冯骥</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%BB%91%E7%A5%9E%E8%AF%9D86%E7%89%88%E5%AD%99%E6%82%9F%E7%A9%BAmod" target="_blank" class="news-link">黑神话86版孙悟空mod</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时57分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2246232" target="_blank" class="news-link">马斯克称脑机设备今年启动“大规模生产” 植入方式也有关键进步</a> [9] <font color='grey'>- 15时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E2%80%9C%E4%B8%AA%E4%BA%BA%E6%9C%BA%E5%99%A8%E4%BA%BA%E2%80%9D%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">全球首个“个人机器人”来了</a> [9] <font color='grey'>- 15时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28348614&amp;amp;topic_name=%E6%95%A3%E4%BA%86%E5%90%A7%21FGO%E6%9C%88%E7%90%83%E6%98%A5%E6%99%9A%E6%B2%A1%E6%B4%BB%E4%BA%86" target="_blank" class="news-link">散了吧!FGO月球春晚没活了</a> [25] <font color='grey'>- 15时57分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E9%BB%91%E7%A5%9E%E8%AF%9D86%E7%89%88%E5%AD%99%E6%82%9F%E7%A9%BAmod" target="_blank" class="news-link">黑神话86版孙悟空mod</a> <font color='red'><strong>[2]</strong></font></li></ul></div>
+        </body>
+        </html>
+        

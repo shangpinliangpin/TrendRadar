@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 254</p><p>生成时间: 2026-01-05 10:34:33</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1991228705045968330" target="_blank" class="news-link">网传元宝 AI 辱骂用户，腾讯称是模型异常输出，非人工回复，技术上如何分析？其他 AI 也可能这样吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时34分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%B9%B4%E5%BA%A6%E6%8A%BD%E8%B1%A1AI%E4%BD%9C%E5%93%81Top10" target="_blank" class="news-link">年度抽象AI作品Top10</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时34分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2247232" target="_blank" class="news-link">AI应用风向标来了？CES+通义硬件展即将举行 这些品牌有望吸睛</a> [12] <font color='grey'>- 10时34分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.79%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762506" target="_blank" class="news-link">宇树科技IPO未能如期推进之谜</a> [6] <font color='grey'>- 10时34分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%A9%BA%E7%BF%BB%E8%B8%A2%E7%88%86%E8%A5%BF%E7%93%9C" target="_blank" class="news-link">宇树机器人空翻踢爆西瓜</a> [7] <font color='grey'>- 10时34分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.79%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28348696&amp;amp;topic_name=%E5%8E%9F%E7%A5%9E%E7%8E%B0%E5%85%AD%E6%8C%87%E7%AB%8B%E7%BB%98%2C%E7%B1%B3%E5%AD%A6%E9%95%BF%E7%94%A9%E9%94%85%E9%B8%A3%E6%BD%AE" target="_blank" class="news-link">原神现六指立绘,米学长甩锅鸣潮</a> [8] <font color='grey'>- 10时34分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9C%A8%E5%8E%9F%E7%A5%9EFES%E8%A7%A3%E5%86%BB%E9%82%A3%E4%B8%AA%E7%94%B7%E4%BA%BA" target="_blank" class="news-link">在原神FES解冻那个男人</a> [27] <font color='grey'>- 10时34分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762500" target="_blank" class="news-link">CES 2026前瞻：英伟达或重塑物理AI，中美韩机器人齐“秀肌肉”</a> [7] <font color='grey'>- 10时34分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3762497" target="_blank" class="news-link">本周重磅日程：“科技春晚”CES、马杜罗将在美受审、美非农、智谱MiniMax港股上市</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时34分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3762497" target="_blank" class="news-link">本周重磅日程：“科技春晚”CES、马杜罗将在美受审、美非农、智谱MiniMax港股上市</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2247232" target="_blank" class="news-link">AI应用风向标来了？CES+通义硬件展即将举行 这些品牌有望吸睛</a> [12]</li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1991228705045968330" target="_blank" class="news-link">网传元宝 AI 辱骂用户，腾讯称是模型异常输出，非人工回复，技术上如何分析？其他 AI 也可能这样吗？</a> <font color='red'><strong>[2]</strong></font></li></ul></div>
+        </body>
+        </html>
+        

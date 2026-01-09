@@ -1,0 +1,122 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-01-09 17:14:39</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762915" target="_blank" class="news-link">A股史上第六次成交额突破3万亿，沪指16连阳、站稳4100点，AI应用爆发，港股MiniMax上市首日大涨80%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时14分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E5%88%86%E8%BE%A8AI%E9%9F%B3%E4%B9%90%E9%AA%97%E5%B1%80" target="_blank" class="news-link">如何分辨AI音乐骗局</a> [9] <font color='grey'>- 17时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2252812" target="_blank" class="news-link">市值近900亿港元！MiniMax今日上市 AI大模型进入“上海时刻”</a> [10] <font color='grey'>- 17时14分</font><br>[douyin] <a href="https://www.douyin.com/hot/2362078" target="_blank" class="news-link">金靖章若楠剧宣诡异的像AI</a> [27] <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7593142040096440326/" target="_blank" class="news-link">华为Mate 70系列直降1800元</a> [8] <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2252663" target="_blank" class="news-link">智元第一、宇树第二！中国企业正主宰全球人形机器人市场</a> [13] <font color='grey'>- 17时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28348833&amp;amp;topic_name=%E5%8D%B7%E7%8E%8B%E9%81%87%E7%A1%AC%E8%8C%AC%2C%E9%A9%AC%E6%96%AF%E5%85%8B%E5%BC%80%E9%99%A4%E5%8A%A0%E7%8F%AD%E5%85%9A" target="_blank" class="news-link">卷王遇硬茬,马斯克开除加班党</a> [30] <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2252487" target="_blank" class="news-link">OpenAI发布ChatGPT健康 AI医疗市场有望加速爆发</a> [12] <font color='grey'>- 17时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3762848" target="_blank" class="news-link">临近周五，美股轮动加剧，芯片股两连阴、小盘股指新高，地缘风险撑原油强劲反弹</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时14分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>财联社热门 (2 条)</h4><ul><li><a href="https://www.cls.cn/detail/2252487" target="_blank" class="news-link">OpenAI发布ChatGPT健康 AI医疗市场有望加速爆发</a> [12]</li><li><a href="https://www.cls.cn/detail/2252663" target="_blank" class="news-link">智元第一、宇树第二！中国企业正主宰全球人形机器人市场</a> [13]</li></ul></div>
+        </body>
+        </html>
+        

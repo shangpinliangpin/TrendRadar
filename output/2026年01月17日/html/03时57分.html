@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-01-17 03:57:26</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[weibo] <a href="https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5599%E5%85%83%E7%BE%BD%E7%BB%92%E6%9C%8D%E8%BF%9B%E4%BB%B7457.9%E5%85%83%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">胖东来599元羽绒服进价457.9元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时57分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5599%E5%85%83%E7%BE%BD%E7%BB%92%E6%9C%8D%E5%85%85%E7%BB%92%E9%87%8F213%E5%85%8B" target="_blank" class="news-link">胖东来599元羽绒服充绒量213克</a> [6] <font color='grey'>- 03时57分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7595864729625677363/" target="_blank" class="news-link">胖东来599元羽绒服充绒量213克</a> [15] <font color='grey'>- 03时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3763449" target="_blank" class="news-link">特朗普拟紧急干预电力市场：强压AI巨头签15年长约，为150亿美元新电厂买单</a> [6] <font color='grey'>- 03时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2260421" target="_blank" class="news-link">【焦点复盘】沪指日线4连跌失守10日线，AI软硬件分化加剧，机器人概念持续活跃</a> [7] <font color='grey'>- 03时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2260348" target="_blank" class="news-link">【每日收评】沪指小幅收跌险守4100点，半导体产业链逆势走强，AI应用持续调整</a> [8] <font color='grey'>- 03时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3763348" target="_blank" class="news-link">台积电带飞芯片股，力撑美股指反弹，白银一度跌逾7%后走V，原油大跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时57分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%94%BB%E5%85%8B%E5%8D%8A%E5%AF%BC%E4%BD%93%E6%9D%90%E6%96%99%E4%B8%96%E7%95%8C%E9%9A%BE%E9%A2%98" target="_blank" class="news-link">中国攻克半导体材料世界难题</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时57分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3763433" target="_blank" class="news-link">沪指险守4100点，两市ETF成交再创历史天量，电网设备走强，半导体产业链爆发，碳酸锂跌停</a> [7] <font color='grey'>- 03时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1995163992667222440" target="_blank" class="news-link">马斯克称三年内星舰将超每小时一发，这有可能实现吗？</a> [13] <font color='grey'>- 03时57分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1994806802546705531" target="_blank" class="news-link">马斯克表示 2 月 14 日后特斯拉将停售 FSD 服务，此后仅以月度订阅方式提供，如何看待此举？</a> [16] <font color='grey'>- 03时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7594710800431104063/" target="_blank" class="news-link">福耀科技大学大一学生已被企业抢光</a> [10] <font color='grey'>- 03时57分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3763450" target="_blank" class="news-link">科技股助推美股指全线上涨，纳指涨0.5%，白银价格逆势重挫5%</a> [10] <font color='grey'>- 03时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E%E5%93%A5%E4%BC%A6%E6%AF%94%E5%A8%85%E5%85%A8%E9%9D%A2%E6%B5%8B%E8%AF%84" target="_blank" class="news-link">原神哥伦比娅全面测评</a> [21] <font color='grey'>- 03时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3763432" target="_blank" class="news-link">老黄“领先一步”，当所有人都在争夺台积电产能，英伟达在“抢地”</a> [9] <font color='grey'>- 03时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B8%85%E5%8D%8E%E5%A7%9A%E7%8F%AD%E9%99%88%E7%AB%8B%E6%9D%B0%E5%8A%A0%E5%85%A5OpenAI" target="_blank" class="news-link">清华姚班陈立杰加入OpenAI</a> [7] <font color='grey'>- 03时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2260607" target="_blank" class="news-link">一条内存半个月涨出一台iPhone</a> [6] <font color='grey'>- 03时57分</font></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        

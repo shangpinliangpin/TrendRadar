@@ -1,0 +1,122 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-01-20 21:10:34</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2263371" target="_blank" class="news-link">关税、热战、AI！世界目光齐聚达沃斯 特朗普携“史上最大代表团”参会</a> [9] <font color='grey'>- 21时10分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=H200%E5%AF%B9AI%E4%BA%A7%E4%B8%9A%E5%BD%B1%E5%93%8D%E5%A6%82%E4%BD%95" target="_blank" class="news-link">H200对AI产业影响如何</a> [30] <font color='grey'>- 21时10分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8q4LVghIqeV" target="_blank" class="news-link">两位院士提名，韦东奕入围北京市科技奖杰出青年中关村奖候选人</a> [11] <font color='grey'>- 21时10分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32423683" target="_blank" class="news-link">两位院士提名，韦东奕入围北京市科技奖杰出青年中关村奖候选人</a> [13] <font color='grey'>- 21时10分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7596876333710360586/" target="_blank" class="news-link">马斯克财富暴涨至近8000亿美元</a> [26] <font color='grey'>- 21时10分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1996233131175462349" target="_blank" class="news-link">谷歌 Gemini 准确率从 21% 提升至 97% 仅靠「复制粘贴」，这意味着什么？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时10分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32417139" target="_blank" class="news-link">奥特曼的“印钞机”与“吞金兽”：OpenAI年化营收超200亿美元背后的豪赌</a> [20] <font color='grey'>- 21时10分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7597314521736642566/" target="_blank" class="news-link">机器人嘎嘎“吃”冰保电网安全</a> [27] <font color='grey'>- 21时10分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7596876333710360586/" target="_blank" class="news-link">马斯克财富暴涨至近8000亿美元</a> [26]</li><li><a href="https://www.toutiao.com/trending/7597314521736642566/" target="_blank" class="news-link">机器人嘎嘎“吃”冰保电网安全</a> [27]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_32417139" target="_blank" class="news-link">奥特曼的“印钞机”与“吞金兽”：OpenAI年化营收超200亿美元背后的豪赌</a> [20]</li></ul></div>
+        </body>
+        </html>
+        

@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-02-05 21:55:47</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">AMD</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3764901" target="_blank" class="news-link">AI信仰动摇，软件与芯片股双双溃败，AMD暴跌17%，加密货币再度下挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时55分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2002675555208803379" target="_blank" class="news-link">美股科技股抛售蔓延，闪迪跌近 16%，AMD 跌超 17% 创八年多来最大单日跌幅，光伏板块爆发，如何解读？</a> [13] <font color='grey'>- 21时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3764994" target="_blank" class="news-link">谷歌All in AI：Q4云收入猛增48%，今年支出指引接近翻倍大超预期，盘后巨震 | 财报见闻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时55分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765004" target="_blank" class="news-link">谷歌电话会：1850亿支出“不得不花”，确认与苹果合作，Gemini并非SaaS的“终结者”</a> [8] <font color='grey'>- 21时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E4%BB%AC%E7%94%A8AI%E5%8A%9E%E4%BA%86%E5%9C%BA%E6%98%A5%E6%99%9A" target="_blank" class="news-link">UP主们用AI办了场春晚</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时55分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32532785" target="_blank" class="news-link">腾讯元宝红包微信分享遭限制，AI入口之争遇挫了吗？</a> [17] <font color='grey'>- 21时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">机器人</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%BA%E5%95%A5%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A6%81%E6%89%8E%E5%A0%86%E4%B8%8A%E6%98%A5%E6%99%9A" target="_blank" class="news-link">为啥机器人要扎堆上春晚</a> [7] <font color='grey'>- 21时55分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9C%A8%E8%88%9E%E5%8F%B0%E4%B8%8A%E6%99%95%E5%80%92+%E6%92%92%E8%B4%9D%E5%AE%81%EF%BC%9A%E5%AE%83%E7%A2%B0%E7%93%B7" target="_blank" class="news-link">机器人在舞台上晕倒 撒贝宁：它碰瓷</a> [26] <font color='grey'>- 21时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2281678" target="_blank" class="news-link">存储芯片荒难解！惠普等PC大厂据称首次考虑中国大陆供应商</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时55分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3764989" target="_blank" class="news-link">科技股大跌蔓延，存储芯片巨头遭“集体踩踏”！闪迪跌超10%</a> [6] <font color='grey'>- 21时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2281407" target="_blank" class="news-link">比DeepSeek风暴还惨烈！一文读懂：华尔街“抛AI”妖风祸从何来？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/2002420086112217076" target="_blank" class="news-link">宇树机器人在 -47.4°C 阿勒泰自主行走 13 万步，实现了哪些突破？极寒环境对人形机器人有哪些挑战？</a> [7] <font color='grey'>- 21时55分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E4%B8%BA%E5%95%A5%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A6%81%E6%89%8E%E5%A0%86%E4%B8%8A%E6%98%A5%E6%99%9A" target="_blank" class="news-link">为啥机器人要扎堆上春晚</a> [7]</li></ul></div>
+        </body>
+        </html>
+        

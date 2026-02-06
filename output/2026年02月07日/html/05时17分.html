@@ -1,0 +1,122 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-02-07 05:17:12</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765130" target="_blank" class="news-link">马斯克3小时深度访谈：三年内成本最低的AI在太空，Optimus是“无限印钞机”</a> [10] <font color='grey'>- 05时17分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32549054" target="_blank" class="news-link">马斯克：如果没有AI和机器人技术，美国必破产</a> [17] <font color='grey'>- 05时17分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%8B%86%E8%A7%A3%E9%A9%AC%E6%96%AF%E5%85%8B%E5%A5%A5%E7%89%B9%E6%9B%BC%E4%BA%92%E6%92%95%E5%A4%A7%E6%88%98" target="_blank" class="news-link">拆解马斯克奥特曼互撕大战</a> [28] <font color='grey'>- 05时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2283020" target="_blank" class="news-link">千问、元宝双双崩溃后 工信部发文推进算力调度 AI Infra或迎戴维斯双击</a> [13] <font color='grey'>- 05时17分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32475041" target="_blank" class="news-link">砸45亿抢AI超级入口，互联网大厂的红包大战怎么打</a> [19] <font color='grey'>- 05时17分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/2003126321845383821" target="_blank" class="news-link">米哈游发布反舞弊通报，4 人因受贿罪获刑，24 家公司列入供应商黑名单，有何警示？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时17分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765113" target="_blank" class="news-link">逢低买盘撑美股大幅反弹，道指新高，英伟达大涨7%，金银V形反弹，比特币涨11%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时17分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765100" target="_blank" class="news-link">砸钱AI超谷歌！亚马逊今年支出指引2000亿意外爆表，盘后跳水超10% | 财报见闻</a> [7] <font color='grey'>- 05时17分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765096" target="_blank" class="news-link">擅长金融研究！Anthropic发布Claude Opus4.6，金融数据库FactSet、汤森路透持续重挫</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时17分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E6%8B%86%E8%A7%A3%E9%A9%AC%E6%96%AF%E5%85%8B%E5%A5%A5%E7%89%B9%E6%9B%BC%E4%BA%92%E6%92%95%E5%A4%A7%E6%88%98" target="_blank" class="news-link">拆解马斯克奥特曼互撕大战</a> [28]</li></ul></div>
+        </body>
+        </html>
+        

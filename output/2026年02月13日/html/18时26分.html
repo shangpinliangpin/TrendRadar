@@ -1,0 +1,154 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-02-13 18:26:21</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">11</td>
+                    <td class="percentage">4.31%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765553" target="_blank" class="news-link">CPI前AI恐慌升级，纳指跌超2%，美债走强，人民币三年新高，黄金失守5000美元，白银跳水11%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时26分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32549741" target="_blank" class="news-link">Moltbook百万条评论分析：AI如何集体“吐槽”人类？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时26分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%23%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%93%A5%E5%BC%801%E4%BA%BA%E5%85%AC%E5%8F%B8%E9%9D%A0AI%E6%9C%88%E5%85%A5200%E4%B8%87%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">杭州大哥开1人公司靠AI月入200万</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时26分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350655&amp;amp;topic_name=%E8%80%81%E7%A0%81%E5%86%9C%E8%A3%81%E5%91%98%E7%90%86%E7%94%B1%2B1%3A%E8%A2%ABAI%E4%BC%98%E5%8C%96" target="_blank" class="news-link">老码农裁员理由+1:被AI优化</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时26分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765624" target="_blank" class="news-link">AI恐慌扩散，科技股再度拖垮美股，地产股连日重挫，苹果市值一日蒸发2000亿</a> [6] <font color='grey'>- 18时26分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350657&amp;amp;topic_name=AI%E6%95%B4%E6%B4%BB%E6%97%A0%E5%BA%95%E7%BA%BF%2C%E8%B5%9B%E6%96%87%E6%BC%94%E5%91%98%E6%80%A5%E4%BA%86" target="_blank" class="news-link">AI整活无底线,赛文演员急了</a> [6] <font color='grey'>- 18时26分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32593042" target="_blank" class="news-link">网信部门从严整治传播无AI标识的虚假不实信息问题</a> [10] <font color='grey'>- 18时26分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7606174592784158251/" target="_blank" class="news-link">一个2.6万亿AI独角兽诞生</a> [16] <font color='grey'>- 18时26分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32595090" target="_blank" class="news-link">澎湃AI晚新闻丨2026年2月12日</a> [16] <font color='grey'>- 18时26分</font><br>[douyin] <a href="https://www.douyin.com/hot/2398167" target="_blank" class="news-link">Seedance2.0展示中国AI潜力</a> [20] <font color='grey'>- 18时26分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%93%A5%E5%BC%801%E4%BA%BA%E5%85%AC%E5%8F%B8%E9%9D%A0AI%E6%9C%88%E5%85%A5200%E4%B8%87" target="_blank" class="news-link">杭州大哥开1人公司靠AI月入200万</a> [22] <font color='grey'>- 18时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/2005557043939993512" target="_blank" class="news-link">DeepSeek 更新后被吐槽变冷变傻，你感受到了吗？为什么会出现这种情况？</a> [9] <font color='grey'>- 18时26分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E5%9B%9E%E5%BA%94%E8%A2%AB%E6%8C%87%E5%86%B7%E6%B7%A1" target="_blank" class="news-link">DeepSeek回应被指冷淡</a> [18] <font color='grey'>- 18时26分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E4%BD%8E%E8%B0%83%E5%8D%87%E7%BA%A7%E6%96%B0%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">DeepSeek低调升级新模型</a> [18] <font color='grey'>- 18时26分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E5%AE%9E%E6%B5%8BDeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">UP主实测DeepSeek新模型</a> [25] <font color='grey'>- 18时26分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7606223301510234155/" target="_blank" class="news-link">华为原终端BG多媒体技术部部长被捕</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时26分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E5%86%85%E9%83%A8%E5%8F%8D%E8%85%90%E9%80%9A%E6%8A%A5%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">华为内部反腐通报</a> [8] <font color='grey'>- 18时26分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/2005584773712741022" target="_blank" class="news-link">如何评价《崩坏：星穹铁道》4.0 全新开拓任务「满月是神不在的时间」？</a> [14] <font color='grey'>- 18时26分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350597&amp;amp;topic_name=%E8%80%81%E7%B1%B3%E8%B7%AA%E4%BA%86%21%E5%8E%9F%E7%A5%9E%E8%A6%81%E5%87%BA%E5%89%A7%E6%83%85%E8%B7%B3%E8%BF%87" target="_blank" class="news-link">老米跪了!原神要出剧情跳过</a> [30] <font color='grey'>- 18时26分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2289721" target="_blank" class="news-link">【数据看盘】一线游资扎堆深科技，多路资金联手抢筹光线传媒</a> [13] <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7606195526660263443/" target="_blank" class="news-link">科技公司年终奖大比拼</a> [20] <font color='grey'>- 18时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/2005571111795058004" target="_blank" class="news-link">于东来称胖东来永不上市，最高管理层 60 岁前须退出权力岗，如何理解？强制退休意味着创始人放弃控制权吗？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时26分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黑神话 冯骥</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350661&amp;amp;topic_name=%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%96%B0PV%2C%E6%B4%8B%E4%BA%BA%E9%9B%86%E4%BD%93PTSD" target="_blank" class="news-link">黑神话新PV,洋人集体PTSD</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">字节 张一鸣</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/2004904783031580122" target="_blank" class="news-link">字节跳动是否已经具备抗衡国内所有大厂总和的能力?</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时26分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765637" target="_blank" class="news-link">加剧AI恐慌！微软高管：大多数白领工作将在“未来12-18个月内”完全自动化</a> [10] <font color='grey'>- 18时26分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%95%BF%E5%BE%81%E5%8D%81%E5%8F%B7%E5%AF%B9%E4%B8%AD%E5%9B%BD%E7%99%BB%E6%9C%88%E6%8E%A8%E8%BF%9B%E6%9C%89%E4%BD%95%E6%84%8F%E4%B9%89" target="_blank" class="news-link">长征十号对中国登月推进有何意义</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时26分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 4 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7606195526660263443/" target="_blank" class="news-link">科技公司年终奖大比拼</a> [20]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%93%A5%E5%BC%801%E4%BA%BA%E5%85%AC%E5%8F%B8%E9%9D%A0AI%E6%9C%88%E5%85%A5200%E4%B8%87" target="_blank" class="news-link">杭州大哥开1人公司靠AI月入200万</a> [22]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2289721" target="_blank" class="news-link">【数据看盘】一线游资扎堆深科技，多路资金联手抢筹光线传媒</a> [13]</li></ul><h4>tieba (1 条)</h4><ul><li><a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350661&amp;amp;topic_name=%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%96%B0PV%2C%E6%B4%8B%E4%BA%BA%E9%9B%86%E4%BD%93PTSD" target="_blank" class="news-link">黑神话新PV,洋人集体PTSD</a> <font color='red'><strong>[4]</strong></font></li></ul></div>
+        </body>
+        </html>
+        

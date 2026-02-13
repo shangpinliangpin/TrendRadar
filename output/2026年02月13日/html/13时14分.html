@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-02-13 13:14:21</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765553" target="_blank" class="news-link">CPI前AI恐慌升级，纳指跌超2%，美债走强，人民币三年新高，黄金失守5000美元，白银跳水11%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2289051" target="_blank" class="news-link">美股收盘：AI颠覆性担忧发酵 三大指数均跌超1%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32549741" target="_blank" class="news-link">Moltbook百万条评论分析：AI如何集体“吐槽”人类？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2289007" target="_blank" class="news-link">美股AI叙事进入下半场：从普涨狂欢到“暗礁”密布</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765624" target="_blank" class="news-link">AI恐慌扩散，科技股再度拖垮美股，地产股连日重挫，苹果市值一日蒸发2000亿</a> [8] <font color='grey'>- 13时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2288921" target="_blank" class="news-link">多位美国明星AI公司研究人员在离职之际拉响警报</a> [8] <font color='grey'>- 13时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E5%8F%98%E5%86%B7%E6%B7%A1%E4%BA%86" target="_blank" class="news-link">DeepSeek变冷淡了</a> [13] <font color='grey'>- 13时14分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E4%BD%8E%E8%B0%83%E5%8D%87%E7%BA%A7%E6%96%B0%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">DeepSeek低调升级新模型</a> [16] <font color='grey'>- 13时14分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E5%AE%9E%E6%B5%8BDeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">UP主实测DeepSeek新模型</a> [19] <font color='grey'>- 13时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%EF%BC%9A%E8%83%96%E4%B8%9C%E6%9D%A5%E6%B0%B8%E4%B8%8D%E4%B8%8A%E5%B8%82" target="_blank" class="news-link">于东来：胖东来永不上市</a> [19] <font color='grey'>- 13时14分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E5%AE%A3%E5%B8%83%E5%B9%B4%E5%90%8E%E6%AD%A3%E5%BC%8F%E9%80%80%E4%BC%91" target="_blank" class="news-link">于东来宣布年后正式退休</a> [30] <font color='grey'>- 13时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%934.0%E5%AE%9E%E5%86%B5" target="_blank" class="news-link">星穹铁道4.0实况</a> [13] <font color='grey'>- 13时14分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350597&amp;amp;topic_name=%E8%80%81%E7%B1%B3%E8%B7%AA%E4%BA%86%21%E5%8E%9F%E7%A5%9E%E8%A6%81%E5%87%BA%E5%89%A7%E6%83%85%E8%B7%B3%E8%BF%87" target="_blank" class="news-link">老米跪了!原神要出剧情跳过</a> [20] <font color='grey'>- 13时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">字节 张一鸣</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/2004904783031580122" target="_blank" class="news-link">字节跳动是否已经具备抗衡国内所有大厂总和的能力?</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3765571" target="_blank" class="news-link">“发展速度太快了”！马斯克点赞Seedance 2.0，字节称“还远不完美”</a> [6] <font color='grey'>- 13时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2289062" target="_blank" class="news-link">特朗普称必须与伊朗达成协议 Anthropic完成300亿美元融资 | 环球市场</a> [10] <font color='grey'>- 13时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2288901" target="_blank" class="news-link">数据中心疯狂耗电惹争议 Anthropic承诺全额埋单电网升级费</a> [12] <font color='grey'>- 13时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qhwigwSERf" target="_blank" class="news-link">路透社：特朗普访华前暂停对华科技禁令</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时14分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%934.0%E5%AE%9E%E5%86%B5" target="_blank" class="news-link">星穹铁道4.0实况</a> [13]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8qhwigwSERf" target="_blank" class="news-link">路透社：特朗普访华前暂停对华科技禁令</a> <font color='red'><strong>[3]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
